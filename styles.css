@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    background: -webkit-linear-gradient(to right, #000000, #ffffff); /* Chrome 和 Safari 的前缀 */
+    background: linear-gradient(to right, #000000, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    user-select: none;
+}
+
+
+.upload-container {
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    user-select: none;
+}
+
+.upload-button-container {
+    margin-top: 50px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.image-container {
+    margin-top: 150px;
+    user-select: none;
+}
+
+button:hover {
+    background-color: #ccc;
+}
